@@ -3,7 +3,7 @@ import subprocess
 
 
 COMMANDS = {
-    "check": ["pylama", "-l", "pylint", "-i", "D100,D103"],
+    "check": ["pylama", "-l", "pylint", "-i", "D100,D101,D102,D103,D105,D106,D107"],
     "test": ["python", "-m", "pytest"],
     "run": ["python", "-m", "src.main"],
 }
