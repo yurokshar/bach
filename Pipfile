@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+dearpygui = "*"
+loguru = "*"
+numba = "*"
+attrs = "*"
+strenum = "*"
+pillow = "*"
+matplotlib = "*"
+flask = "*"
+scipy = "*"
+scikit-learn = "*"
+pyqt5 = "*"
+scikit-image = "*"
+
+[dev-packages]
+pytest = "*"
+mypy = "*"
+pycodestyle = "*"
+pylama = "*"
+autopep8 = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
