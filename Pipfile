@@ -10,6 +10,15 @@ loguru = "*"
 numba = "*"
 attrs = "*"
 strenum = "*"
+pillow = "*"
+matplotlib = "*"
+flask = "*"
+scipy = "*"
+scikit-learn = "*"
+pyqt5 = "*"
+scikit-image = "*"
+imutils = "*"
+opencv-python = "*"
 
 [dev-packages]
 pytest = "*"
@@ -17,6 +26,7 @@ mypy = "*"
 pycodestyle = "*"
 pylama = "*"
 autopep8 = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.10"
